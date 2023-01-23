@@ -64,7 +64,7 @@ export function Plp() {
                 {status === errorType.success &&
                 <>
                 <Container>
-                { data && memoProducts?.map(product => 
+                { products && memoProducts?.map(product => 
                     <ProductCard 
                         key={product.id} 
                         title={product.title} 
