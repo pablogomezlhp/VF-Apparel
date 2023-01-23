@@ -26,8 +26,6 @@ export const orderBy = (
   };
 
 export function setEncryptedLocalStorage(key: string, value: any) {
-
-    console.log("entrou aqui..")
     encryptStorage.setItem(key, value);
 
 }

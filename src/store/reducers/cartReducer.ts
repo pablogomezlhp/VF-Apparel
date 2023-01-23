@@ -1,6 +1,7 @@
-import Product from '../../interfaces/Product';
 import { createSlice } from '@reduxjs/toolkit';
 import { toast } from 'react-toastify';
+
+import Product from '../../interfaces/Product';
 import { getEncryptedLocalStorage, setEncryptedLocalStorage } from '../../utils/helpers';
 
 export interface CartState {
